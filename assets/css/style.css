@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #3b8af2;
+  color: #000;
   text-decoration: none;
 }
 
@@ -31,6 +31,14 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-shadow {
+  text-shadow: 3px 2px 1px grey;
 }
 
 /*--------------------------------------------------------------
@@ -89,13 +97,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #000;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #3284f1;
-  color: #fff;
+  background: #dbb008;
+  color: #000;
 }
 
 .back-to-top.active {
@@ -652,7 +660,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #f1f6fe;
+  background-color: #f5f5f5;
   min-height: 40px;
 }
 
